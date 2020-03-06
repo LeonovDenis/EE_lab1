@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Cтартовая html-страница веб-приложения -->
+<html>
+    <head>
+        <title>Повторите запрос</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Форма, содержащая кнопку для обращения к сервлету Hello методом GET,
+         следовательно, данный запрос будет обработан методом doGet() этого 
+        сервлета -->
+        
+         <p>Введите запрос 
+             <u>повторно
+             </u>!
+         </p> 
+        
+        
+        <form action="Hello" method="Get">
+            <p>Input message:
+                <!-- Поле ввода сообщения -->
+                <input type="text" name="msg" size="20"/>
+            </p>
+            <!-- Кнопка отправки данных на сервер -->
+            <input type="submit" value="Go"/>
+        </form>
+              
+    </body>
+</html>
